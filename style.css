@@ -1,0 +1,72 @@
+body {
+    background-color: #222;
+    color: #EEE;
+    font-family: monospace;
+    padding: 0 1rem;
+}
+main {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+main table {
+    background-color: #CCF;
+    margin: 0 auto;
+    max-width: 800px;
+    width: 100%;
+}
+main table thead {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+main table td {
+    background-color: #333;
+    border: 2px inset #CCF;
+    height: 50px;
+    text-align: center;
+}
+main table td a {
+    color: white;
+}
+main table td:nth-child(1) {
+    background-color: red;
+}
+main table td:nth-child(2) {
+    background-color: orange;
+    color: #222;
+}
+main table td:nth-child(2) a,
+main table td:nth-child(3) a,
+main table td:nth-child(7) a {
+    color: #222;
+}
+main table td:nth-child(3) {
+    background-color: yellow;
+    color: #222;
+}
+main table td:nth-child(4) {
+    background-color: green;
+}
+main table td:nth-child(5) {
+    background-color: blue;
+}
+main table td:nth-child(6) {
+    background-color: indigo;
+}
+main table td:nth-child(7) {
+    background-color: violet;
+    color: #222;
+}
+.code-box {
+    background-color: #111;
+    color: #DDD;
+    font-size: 1.1rem;
+    width: 100%;
+}
+pre {
+    background-color: #111;
+    border: 3px inset slateblue;
+    color: #EEE;
+    min-height: 200px;
+    padding: 0 4px;
+    width: 100%;
+}
